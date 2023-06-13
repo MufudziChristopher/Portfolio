@@ -1,0 +1,689 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+   <!--- basic page needs
+         ================================================== -->
+   <meta charset="utf-8">
+   <title>Sup</title>
+   <meta name="keywords"
+      content="Mufudzi Christopher, Website Developer, Web Application Developer, Cape Town, South Africa, Young and Talented web developer, E-commerce, ASP.Net, Microsoft certified, freelance web designer based in Cape Town, South Africa, Python Django">
+   <meta name="description"
+      content=" online portfolio showcasing what Mufudzi Christopher has to offer in a way that represents who he is and what he is capable of. I hope you have a pleasant experience.">
+   <meta name="author" content="Mufudzi Christopher">
+   <!-- mobile specific metas
+         ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- CSS
+         ================================================== -->
+   <link rel="stylesheet" type="text/css" href="{% static 'css/index.d73f7ad5.css' %}">
+   <link rel="stylesheet" href="{% static 'css/base.css' %}">
+   <link rel="stylesheet" href="{% static 'css/vendor.css' %}">
+   <link rel="stylesheet" href="{% static 'css/main.css' %}">
+   <!--     <link rel="stylesheet" href="css/animate.css"> -->
+
+   <link rel="stylesheet" href="https://use.typekit.net/biu0hfr.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="{% static 'css/font/flaticon.css' %}">
+   <link rel="stylesheet" type="text/css" href="{% static 'css/form.css' %}">
+
+   <!-- script
+         ================================================== -->
+   <script src="{% static 'js/modernizr.js' %}"></script>
+   <script src="{% static 'js/pace.min.js' %}"></script>
+   <!-- favicons
+         ================================================== -->
+   <link rel="shortcut icon" href="{% static 'favicon.png' %}" type="image/x-icon">
+   <link rel="icon" href="{% static 'favicon.png' %}" type="image/x-icon">
+</head>
+
+<body id="top">
+
+   <!-- header
+         ================================================== -->
+   <header class="s-header">
+      <nav class="header-nav">
+         <a href="#0" class="header-nav__close" title="close"> <span>Close</span></a>
+         <div class="header-nav__content">
+            <h3>Mufudzi Christopher</h3>
+            <ul class="header-nav__list">
+               <li class="current"><a class="smoothscroll" href="#home" title="Home">Home</a></li>
+               <li><a class="smoothscroll" href="#services">Services</a></li>
+               <li><a class="smoothscroll" href="#work">Portfolio</a></li>
+               <li><a class="smoothscroll" href="#about">About</a></li>
+               <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            </ul>
+            <p style="color: #ffffff">
+               <a href="https://mufudzichristopher.com">Mufudzi Christopher Web Development Solutions is a dynamic and
+                  innovative freelance agency specializing in web development services. I hope you have a pleasant
+                  experience.
+            </p>
+            <!-- <ul class="header-nav__social">
+               <li>
+                  <a href="https://www.linkedin.com/in/mufudzi-christopher-nhamoinesu" target="_blank">
+                     <img style="width: 25px; height: 25px" alt="LinkedIn" title="LinkedIn"
+                        src="{% static 'images/svg/linkedin.svg' %}" />
+                  </a>
+               </li>
+               <li><br>
+                  <a href="https://www.instagram.com/astro-mcn10/" target="_blank">
+                     <img style="width: 25px; height: 25px" alt="Instagram" title="Instagram"
+                        src="{% static 'images/svg/instagram.svg' %}" />
+                  </a>
+               </li>
+               <li>
+                  <a href="https://twitter.com/Fudzi_Yama23" target="_blank">
+                     <img style="width: 25px; height: 25px" alt="Twitter" title="Twitter"
+                        src="{% static 'images/svg/twitter.svg' %}" />
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.facebook.com/MufudziChristopher95" target="_blank">
+                     <img style="width: 25px; height: 25px" alt="Facebook" title="Facebook"
+                        src="{% static 'images/svg/facebook.svg' %}" />
+                  </a>
+               </li>
+               <li>
+                  <a href="https://za.pinterest.com/mufudzichristopher/" target="_blank">
+                     <img style="width: 25px; height: 25px; padding: 0%" alt="Pinterest" title="Pinterest"
+                        src="{% static 'images/svg/pinterest.svg' %}" />
+                  </a>
+               </li>
+            </ul> -->
+         </div>
+         <!-- end header-nav__content -->
+      </nav>
+      <!-- end header-nav -->
+      <a class="header-menu-toggle" href="#0">
+         <span class="header-menu-icon"></span>
+      </a>
+   </header>
+   <!-- end s-header -->
+   <!-- home
+         ================================================== -->
+   <section id="home" class="s-home target-section" data-parallax="scroll"
+      data-image-src="{% static 'images/hero-bg.jpg' %}" data-natural-width=3000 data-natural-height=2000
+      data-position-y=top>
+      <div class="home-content">
+         <div class="row home-content__main">
+            <h1>
+               Mufudzi Christopher
+            </h1>
+            <p>
+               Web Development Solutions.
+               <br>
+            </p>
+         </div>
+         <!-- end home-content__main -->
+      </div>
+      <!-- end home-content -->
+      <ul class="home-sidelinks">
+         <li><a class="smoothscroll" href="#services">Services<span>My Skills</span></a></li>
+         <li><a class="smoothscroll" href="#work">Portfolio<span>My Work</span></a></li>
+         <li><a class="smoothscroll" href="#about">About<span>Who I Am</span></a></li>
+         <li><a class="smoothscroll" href="#contact">Contact<span>Get In Touch</span></a></li>
+      </ul>
+      <!-- end home-sidelinks -->
+      <div>
+         <ul class="home-social">
+            <li><a href="https://rxresu.me/mnhamoinesu/mc-web-developer-" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                  <span class="home-social-text">Resume</span>
+               </a></li>
+            <li><a href="https://github.com/MufudziChristopher">
+                  <i class="fab fa-twitter"></i>
+                  <span class="home-social-text">GitHub</span>
+               </a></li>
+
+            <li><a href="https://linkedin.com/in/mufudzi-christopher-nhamoinesu">
+                  <i class="fab fa-linkedin"></i>
+                  <span class="home-social-text">LinkedIn</span>
+               </a></li>
+         </ul>
+      </div>
+
+      <!-- end home-social -->
+      <a href="#about" class="home-scroll smoothscroll">
+         <span class="home-scroll__text">Scroll Down</span>
+         <span class="home-scroll__icon"></span>
+      </a>
+      <!-- end home-scroll -->
+   </section>
+   <!-- end s-home -->
+
+
+   <!-- service
+         ================================================== -->
+   <section id='services' class="s-works">
+      <div class="row section-header" data-aos="fade-up">
+         <div class="col-full">
+            <h3 class="subhead">Services</h3>
+            <h1 class="display-1">I don't just make websites... I build brands!</h1>
+         </div>
+      </div>
+      <!-- <div class="row" data-aos="fade-up">
+         <div class="col-full">
+            <p class="lead">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+               ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+            </p>
+         </div>
+      </div> -->
+      <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+         <div class="col-block service-item " data-aos="fade-up">
+            <div class="service-icon service-icon--brand-identity">
+               <i class="icon-tv"></i>
+            </div>
+            <div class="service-text">
+               <h3 class="h4">Brand Identity</h3>
+               <p>With a passion for creating exceptional online experiences,
+                  we strive to empower
+                  businesses and individuals with cutting-edge digital solutions.
+
+
+                  <!-- Our brand identity reflects our
+                  commitment to professionalism, creativity, and customer-centricity, setting us apart in the
+                  competitive web development industry. -->
+               </p>
+            </div>
+         </div>
+         <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon  service-icon--illustration">
+               <i class="icon-group"></i>
+            </div>
+            <div class="service-text">
+               <h3 class="h4">Web Application Development</h3>
+               <p>Dedicated to delivering scalable, user-friendly, and feature-rich web applications that help you
+                  streamline operations, enhance user experience, and achieve your business goals.
+               </p>
+            </div>
+         </div>
+         <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon  service-icon--web-design">
+               <i class="icon-earth"></i>
+            </div>
+            <div class="service-text">
+               <h3 class="h4">Web Design</h3>
+               <p>Dedicated to helping you achieve your business objectives through a visually stunning and highly
+                  functional website.
+               </p>
+            </div>
+         </div>
+
+         <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon  service-icon--ui-design">
+               <i class="icon-window"></i>
+            </div>
+            <div class="service-text">
+               <h3 class="h4">UI/UX Design</h3>
+               <p>With our user-centered approach, attention to detail, and commitment to delivering intuitive and
+                  visually appealing interfaces, we help you establish a strong online presence and leave a lasting
+                  impression on your users.
+               </p>
+            </div>
+         </div>
+
+         <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon service-icon--product-strategy">
+               <i class="icon-cube"></i>
+            </div>
+            <div class="service-text">
+               <h3 class="h4">Product Strategy</h3>
+               <p>By combining market research, user-centric design, and technical expertise, we help you develop a
+                  compelling digital product strategy that sets you up for success.
+               </p>
+            </div>
+         </div>
+
+         <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon service-icon--mobile-dev">
+               <i class="icon-lego-block"></i>
+            </div>
+            <div class="service-text">
+               <h3 class="h4">Mobile Development</h3>
+               <p>Dedicated to delivering scalable, user-friendly, and feature-rich web applications that help you
+                  streamline operations, enhance user experience, and achieve your business goals.
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end s-services -->
+
+
+
+   <!-- work
+         ================================================== -->
+   <section id='work' class="s-works">
+      <div class="row section-header" data-aos="fade-up">
+         <div class="col-full">
+            <br><br>
+            <h3 class="subhead">Portfolio</h3>
+            <h1 class="display-1">My recent work.</h1>
+         </div>
+      </div>
+      <div class="row testimonials">
+         <div class="col-full testimonials__slider">
+            <div class="testimonials__slide">
+               <a href="https://maximkids.org" target="_blank"><img src="{% static 'images/maxim.png' %}"
+                     style="background-size: contain;" alt="Maxim Kids" class="testimonials__avatar"></a>
+               <div class="testimonials__author">
+                  <a href="https://maximkids.org" target="_blank" style="color: #000">Maxim Kids Academy</a>
+               </div>
+               <a href="https://maximkids.org" target="_blank">
+                  <p style="color: #000; font-size: .8em">A key ingredient for beating the odds. Maxim Kids Academy is a
+                     non-profit organization that empowers underprivileged youth to reach their dreams in life through
+                     passion for sport.</p>
+               </a>
+            </div>
+            <div class="testimonials__slide">
+               <a href="http://www.thegoldenyears.co.za" target="_blank"><img
+                     src="{% static 'images/thegoldenyears.png' %}" style="background-size: contain;"
+                     alt="The Golden Years" class="testimonials__avatar"></a>
+               <div class="testimonials__author">
+                  <a href="http://www.thegoldenyears.co.za" target="_blank" style="color: #000"> The Golden Years </a>
+               </div>
+               <a href="http://www.thegoldenyears.co.za" target="_blank">
+                  <p style="color: #000; font-size: .8em;">Specialised Frail Care by Dr. Diane Pansegrauw</p>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="row testimonials">
+         <div class="col-full testimonials__slider">
+            <div class="testimonials__slide">
+               <a href="https://riskmitigation.co.za" target="_blank"><img src="{% static 'images/RMC.jpg' %}"
+                     style="background-size: contain;" alt="Risk Mitigation Consultants"
+                     title="Risk Mitigation Consultants" class="testimonials__avatar"></a>
+               <div class="testimonials__author">
+                  <a href="http://www.riskmitigation.co.za" target="_blank" style="color: #000">Risk Mitigation Consultants</a>
+               </div>
+               <a href="http://www.riskmitigation.co.za" target="_blank">
+                  <p style="color: #000; font-size: .8em">Risk Mitigation Consultants assess risk factors, analyse
+                     intelligence and implement safety and security measures for residential, retail, commercial and
+                     industrial assets.
+                  </p>
+               </a>
+            </div>
+            <div class="testimonials__slide">
+               <a href="http://www.hospitalitypro.co.za" target="_blank"><img src="{% static 'images/HPR.jpg' %}"
+                     style="background-size: contain;" alt="Hospitality Pro Recruitment"
+                     title="Hospitality Pro Recruitment" class="testimonials__avatar"></a>
+               <div class="testimonials__author">
+                  <a href="http://www.hospitalitypro.co.za" target="_blank" style="color: #000">Hospitality Pro
+                     Recruitment</a>
+               </div>
+               <a href="http://www.hospitalitypro.co.za" target="_blank">
+                  <p style="color: #000; font-size: .8em">Hospitality Pro Recruitment specialize in hospitality
+                     recruitment and we are committed to delivering a professional service, where we source top talent
+                     to suit our clients’ needs.</p>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="row testimonials">
+         <div class="col-full testimonials__slider">
+            <div class="testimonials__slide">
+               <a href="IDACA/IDACA/index.html" target="_blank"><img src="{% static 'images/IDACA.jpeg' %}"
+                     style="background-size: contain;" alt="IDACA International Student Support Services"
+                     class="testimonials__avatar"></a>
+               <div class="testimonials__author">
+                  <a href="IDACA/IDACA/index.html" target="_blank" style="color: #000">IDACA</a>
+               </div>
+               <a href="IDACA/IDACA/index.html" target="_blank">
+                  <p style="color: #000; font-size: .8em">IDACA student support services is a small, highly professional
+                     and personalized organization. We provide international students with all the assistance they need
+                     to locate themselves easily in Cape Town and at the University of Cape Town as well as with on -
+                     going support and services throughout the semester abroad. </p>
+               </a>
+            </div>
+            <div class="testimonials__slide">
+               <a href="http://www.womzi.org" target="_blank"><img src="{% static 'images/womzi.png' %}"
+                     style="background-size: contain;" alt="Woman of Mount Zion" class="testimonials__avatar_flat"></a>
+               <div class="testimonials__author">
+                  <a href="http://www.womzi.org" target="_blank" style="color: #000"> Women of Mount Zion </a>
+               </div>
+               <a href="http://www.womzi.org" target="_blank">
+                  <p style="color: #000; font-size: .8em">
+                     According to Psalm 31:15, your life and times are in the hands of our maker and I believe that as a
+                     good (wo)man and in accordance with Psalm 37:23, your steps have been ordered to this group.
+                     You are in good company because we are part of an anointed, consecrated, set-apart royal priesthood
+                     that is set apart and we are here to be the difference.</p>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="row testimonials">
+         <div class="col-full testimonials__slider">
+            <div class="testimonials__slide">
+               <a href="/BC/index.html" target="_blank"><img src="{% static 'images/bclogo.png' %}"
+                     style="background-size: contain;" alt="Brand Central" class="testimonials__avatar" /></a>
+               <div class="testimonials__author">
+                  <a href="/BC/index.html" target="_blank" style="color: #000">Brand Central</a>
+               </div>
+               <a href="/BC/index.html" target="_blank">
+                  <p style="color: #000; font-size: .8em">BrandCentral designs, reviews and executes marketing and
+                     communication goals and growth strategies.
+                  </p>
+               </a>
+            </div>
+            <div class="testimonials__slide">
+               <a href="http://www.basegear.co.za" target="_blank"><img src="{% static 'images/BGT_logo.jpg' %}"
+                     style="background-size: contain;" alt="Base Gear Tactical" class="testimonials__avatar"></a>
+               <div class="testimonials__author">
+                  <a href="http://www.basegear.co.za" target="_blank" style="color: #000"> Base Gear Tactical </a>
+               </div>
+               <a href="http://www.basegear.co.za" target="_blank">
+                  <p style="color: #000; font-size: .8em;">Coming Soon</p>
+               </a>
+            </div>
+         </div>
+      </div>
+
+
+      <br><br>
+   </section>
+   <!-- end work -->
+
+
+
+   <!-- GALLERY
+         ================================================== -->
+   <section id='pictures' class="s-works">
+      <div class="row section-header" data-aos="fade-up">
+         <div class="col-full">
+            <h3 class="subhead">Gallery.</h3>
+            <h1 class="display-1">I am Mufudzi Christopher.</h1>
+         </div>
+      </div>
+
+      <!-- end section-header -->
+      <div class="row ">
+         <dl class="">
+            <div class="about-process process block-1-2 block-tab-full">
+               <div class="process__vline-left"></div>
+               <div class="process__vline-right"></div>
+               <div class="col-block " data-aos="fade-up" style="margin-bottom: 40px">
+                  <div class="process__text mufudzi">
+                     <img src="{% static 'images/space.gif' %}"
+                        title="One Small Step for Man. One Giant Leap for Mankind!" alt="Wow"
+                        class="testimonials__avatar">
+                     <h4 style="text-align: center">
+                        Web Designer
+                     </h4>
+                     <div style="text-align: center; color: #000000;">
+                        <i src="flaticon-space-shuttle"></i>
+                        <i class="flaticon-ubuntu-sketched-logo bblinking1"></i>
+                        <i class="flaticon-terminal-windows bblinking2"></i>
+                        <i class="flaticon-operating-system bblinking3"></i>
+                        <i class="flaticon-login bblinking4"></i>
+                        <i class="flaticon-file bblinking5"></i>
+                        <i class="flaticon-server bblinking6"></i>
+                     </div>
+                     <dl>
+                        <br>
+                        <dd>I started out with web design. I like the clean edges of tiles, squares and rectangles and
+                           appreciate the softness of color and fonts. I make websites that make you enjoy opening your
+                           browser and using the internet. Web design isn't just about pretty pictures and fancy words.
+                           It's
+                           about understanding the want and the need and providing a solution that satisfies both. I am
+                           always
+                           in development mode because I employ an agile approach when working on projects and tasks. I
+                           plan
+                           to develop something new and exciting the world's never seen before. Watch this space.
+                           <img src="{% static 'images/space.gif' %}" alt="Wow" title="Copy that, over!"
+                              class="testimonials__avatar">
+                        </dd>
+                     </dl>
+                  </div>
+               </div>
+               <div class="col-block " data-aos="fade-up" style="margin-bottom: 40px">
+                  <div class="process__text mufudzi">
+                     <img src="{% static 'images/space.gif' %}" alt="Wow" title="Houston, We've found the Problem!"
+                        class="testimonials__avatar">
+                     <h4 style="text-align: center">
+                        <dl>Systems Administrator </dl>
+                     </h4>
+                     <div style="text-align: center; color: #000000;">
+                        <i class="flaticon-administrator"></i>
+                        <i class="flaticon-firewall bblinking1"></i>
+                        <i class="flaticon-protection bblinking2"></i>
+                        <i class="flaticon-signature bblinking3"></i>
+                        <i class="flaticon-work-time bblinking4"></i>
+                        <i class="flaticon-lan bblinking5"></i>
+                        <i class="flaticon-wifi bblinking6"></i>
+                     </div>
+                     <br>
+                     <dd>I am responsible for the configuration, support and the reliable/dependable operation of the
+                        company's computer systems and network. I abide by and design best practices for the company's
+                        infrastructure whilst monitoring the day-to-day running of both physical and virtual systems to
+                        ensure optimum performance, security and compliance. Understanding how software behaves means
+                        that
+                        I am able to troubleshoot and problem-solve, proactively. Seeing opportunities before they
+                        arise,
+                        communicating effectively and acting swift and decisively. This is what it means to be a Systems
+                        Administrator</dd>
+                  </div>
+               </div>
+               <div class="col-block " data-aos="fade-up" style="margin-bottom: 40px">
+                  <div class="process__text mufudzi">
+                     <img src="{% static 'images/space.gif' %}" title="Lift-off! We Have Lift-off!" alt="Wow"
+                        class="testimonials__avatar">
+                     <h4 style="text-align: center">IT Professional</h4>
+                     <div style="text-align: center; color: #000000;" title="">
+                        <i class="flaticon-technician" title=" Icarus - A Short Story"></i>
+                        <i class="flaticon-execution bblinking1" title="Desperate to flee the island,"></i>
+                        <i class="flaticon-cctv-2 bblinking2"
+                           title="Daedalus uses wax to build some wings for himself and his son Icarus."></i>
+                        <i class="flaticon-data-collection bblinking3"
+                           title="Daddy Daedalus warns his son to fly at a middle height: the seawater will dampen the wings and the sun will melt them. ... "></i>
+                        <i class="flaticon-data bblinking4" title="Sure enough, his wings melt, "></i>
+                        <i class="flaticon-fan bblinking5" title="and Icarus plummets into the sea and drowns."></i>
+                        <i class="flaticon-computer bblinking6" title="The End."></i>
+                     </div>
+                     <p style="text-align: center">
+                        <br> I have a passion for computers. I understand how they work and what to do when they don't.
+                        The
+                        knowledge I have consumed over the years allows me to see that creativity can exist between the
+                        rigid lines of 1s and 0s. I ride the internet like a wave on a familiar beach. I understand it
+                        inside and out and monitor my usage of it like a hawk.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-block " data-aos="fade-up" style="margin-bottom: 40px">
+                  <div class="process__text mufudzi">
+                     <img src="{% static 'images/space.gif' %}" alt="Wow" title="T minus 10, 9, 8, ..."
+                        class="testimonials__avatar">
+                     <h4 style="text-align: center">People's Person</h4>
+                     <div style="text-align: center; color: #000000;">
+                        <i class="flaticon-jesus"></i>
+                        <i class="flaticon-chat-1 bblinking1"></i>
+                        <i class="flaticon-coffee-cup bblinking2"></i>
+                        <i class="flaticon-cafe bblinking3"></i>
+                        <i class="flaticon-handshake bblinking4"></i>
+                        <i class="flaticon-contacts-book bblinking5"></i>
+                        <i class="flaticon-win bblinking6"></i>
+                     </div>
+                     <p style="text-align: center">
+                        <br> I am a not a nerd. Unfortunately. No, I'm actually really cool. I am empathetic and I'm
+                        always
+                        willing to lend a helping hand. I find happiness in seeing the smiles I create. I believe I am a
+                        leader, not a follower. A do-er, not a re-do-er. I am above all a son of a King, a man of God.
+                        Disciplined. Determined.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </dl>
+         <!-- end process -->
+      </div>
+
+      <div class="row masonry-wrap" style="margin-left: auto">
+         <div class="masonry">
+            <div class="masonry__brick" data-aos="fade-up">
+               <div class="item-folio">
+                  <div class="item-folio__thumb">
+                     <a href="{% static 'images/portfolio/P1.jpg' %}" class="thumb-link" title="" data-size="800x1000">
+                        <img src="{% static 'images/portfolio/P1.jpg' %}"
+                           srcset="{% static 'images/portfolio/P1.jpg' %} 1x, {% static 'images/portfolio/P1.jpg' %} 2x"
+                           alt="">
+                     </a>
+                  </div>
+               </div>
+               <!-- end item-folio -->
+            </div>
+            <div class="masonry__brick" data-aos="fade-up">
+               <div class="item-folio">
+                  <div class="item-folio__thumb">
+                     <a href="{% static 'images/portfolio/P3.jpg' %}" class="thumb-link" title="" data-size="800x1000">
+                        <img src="{% static 'images/portfolio/P3.jpg' %}"
+                           srcset="{% static 'images/portfolio/P3.jpg' %} 1x, {% static 'images/portfolio/Pspace.gif' %} 2x"
+                           alt="">
+                     </a>
+                  </div>
+               </div>
+               <!-- end item-folio -->
+            </div>
+            <div class="masonry__brick" data-aos="fade-up">
+               <div class="item-folio">
+                  <div class="item-folio__thumb">
+                     <a href="{% static 'images/portfolio/P2.jpg' %}" class="thumb-link" title="" data-size="800x1000">
+                        <img src="{% static 'images/portfolio/P2.jpg' %}"
+                           srcset="{% static 'images/portfolio/P2.jpg' %} 1x, {% static 'images/portfolio/P2.jpg' %} 2x"
+                           alt="">
+                     </a>
+                  </div>
+               </div>
+               <!-- end item-folio -->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end s-works -->
+   <!-- contact
+         ================================================== -->
+   <section id="contact" class="s-home target-section" data-parallax="scroll"
+      data-image-src="{% static 'images/Contact2.jpg' %}" data-natural-width=3000 data-natural-height=2000
+      data-position-y=top>
+      <div class="row">
+         <div class="target-section" data-aos="fade-up">
+            <div class="col-full">
+               <br>
+               <br>
+               <br>
+               <br>
+               <h3 class="subhead subhead--light"> Contact Me.</h3>
+               <h1 class="display-1 display-1--light" style="color:#fff">
+                  Get in touch with me. <br> Let's make magic happen.
+               </h1>
+            </div>
+         </div>
+         <div class="col-ten contact-email" data-aos="fade-up">
+            <ul class="contact-social">
+               <li>
+                  <a href="https://www.linkedin.com/in/mufudzi-christopher-nhamoinesu" target="_blank">
+                     <img style="width: 40px; height: 40px" alt="LinkedIn" title="LikedIn"
+                        src="{% static 'images/svg/linkedin.svg' %}" />
+                  </a>
+               </li>
+               <li><br>
+                  <a href="https://www.instagram.com/astro-mcn10/" target="_blank">
+                     <img style="width: 40px; height: 40px" alt="Instagram" title="Instagram"
+                        src="{% static 'images/svg/instagram.svg' %}" />
+                  </a>
+               </li>
+               <li>
+                  <a href="https://twitter.com/Fudzi_Yama23" target="_blank">
+                     <img style="width: 40px; height: 40px" alt="Twitter" title="Twitter"
+                        src="{% static 'images/svg/twitter.svg' %}" />
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.facebook.com/MufudziChristopher95" target="_blank">
+                     <img style="width: 40px; height: 40px" alt="Facebook" title="Facebook"
+                        src="{% static 'images/svg/facebook.svg' %}" />
+                  </a>
+               </li>
+               <li>
+                  <a href="https://za.pinterest.com/mufudzichristopher/" target="_blank">
+                     <img style="width: 40px; height: 40px; padding: 0%" alt="Pinterest" title="Pinterest"
+                        src="{% static 'images/svg/pinterest.svg' %}" />
+                  </a>
+               </li>
+               <br>
+            </ul>
+            <!-- end contact-social -->
+         </div>
+         <!-- end contact-secondary -->
+         <div class="row col-ten tab-full contact-email" style="margin-left: 10px">
+            <p>Cape Town, South Africa.</p>
+         </div>
+         <!-- end row -->
+      </div>
+      <!-- end row -->
+   </section>
+   <!-- end s-contact -->
+   <!-- photoswipe background
+         ================================================== -->
+   <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+         <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+         </div>
+         <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+               <div class="pswp__counter"></div>
+               <button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button
+                  class="pswp__button pswp__button--share" title="Share"></button> <button
+                  class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button
+                  class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+               <div class="pswp__preloader">
+                  <div class="pswp__preloader__icn">
+                     <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+               <div class="pswp__share-tooltip"></div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button
+               class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+               <div class="pswp__caption__center"></div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end photoSwipe background -->
+   <!-- preloader
+         ================================================== -->
+   <div id="preloader">
+      <div id="loader">
+      </div>
+   </div>
+   <!-- Java Script
+         ================================================== -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121132384-1"></script>
+   <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+   <script src="{% static 'js/plugins.js' %}"></script>
+   <script src="{% static 'js/main.js' %}"></script>
+   <script src="{% static 'js/form.js' %}"></script>
+   <script type="module" src="{% static 'js/index.e9a2d1b4.js' %}"></script>
+   <script src="{% static 'js/index.b5e7c14d.js' %}" nomodule defer></script>
+</body>
+
+</html>
